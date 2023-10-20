@@ -1,3 +1,4 @@
+/* Общие стили */
 header {
     background-color: #f2f2f2;
     padding: 20px;
@@ -65,3 +66,218 @@ footer p {
 h1, h2, p, li, address, footer p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Стили для мобильных устройств */
+@media (max-width: 767px) {
+    header {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    h1 {
+      color: #333;
+      font-size: 24px;
+    }
+  
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    main {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    section {
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      color: #333;
+      font-size: 20px;
+    }
+  
+    p {
+      line-height: 1.4;
+    }
+  
+    ul {
+      padding-left: 10px;
+    }
+  
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      position: static;
+      width: 100%;
+    }
+  
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    h1, h2, p, li, address, footer p {
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  /* Стили для планшетов */
+  @media (min-width: 768px) and (max-width: 991px) {
+    main {
+      max-width: 90%;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  }
+  
+  /* Стили для компов */
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+    main {
+      max-width: 800px;
+      padding: 40px;
+    }
+  
+    section {
+      margin-bottom: 60px;
+    }
+  
+    h1 {
+      font-size: 48px;
+    }
+  
+    h2 {
+      font-size: 36px;
+    }
+  
+    p {
+      line-height: 1.8;
+    }
+  
+    footer {
+      padding: 20px 0;
+    }
+  
+    footer p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Стили для больших экранов (например, компьютеров) */
+  @media (min-width: 1200px) {
+
+    main {
+      max-width: 1000px;
+      padding: 60px;
+    }
+  
+    section {
+      margin-bottom: 80px;
+    }
+  
+    h1 {
+      font-size: 60px;
+    }
+  
+    h2 {
+      font-size: 48px;
+    }
+  
+    p {
+      line-height: 2;
+    }
+  
+    footer {
+      padding: 30px 0;
+    }
+  
+    footer p {
+      font-size: 18px;
+    }
+  }
+  
+/* Общие стили */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+address {
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+h1, h2, p, li, address, footer p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
