@@ -1,0 +1,100 @@
+$font-stack: Arial, sans-serif
+$box-padding: 20px
+$box-padding-small: 10px
+
+body 
+  font-family: $font-stack
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+header 
+  background-color: #f2f2f2
+  padding: $box-padding
+  text-align: center
+
+h1 
+  color: #333
+
+nav ul 
+  list-style-type: none
+  padding: 0
+
+nav li 
+  display: inline
+  margin-right: 20px
+
+main 
+  max-width: 800px
+  margin: 0 auto
+  padding: $box-padding
+  box-sizing: border-box
+
+section 
+  margin-bottom: 40px
+
+h2 
+  color: #333
+
+p 
+  line-height: 1.6
+
+ul 
+  padding-left: 20px
+
+address 
+  font-style: italic
+
+footer 
+  background-color: #333
+  color: #fff
+  text-align: center
+  padding: 10px 0
+
+footer p 
+  margin: 0
+
+h1, h2, p, li, address, footer p 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
+
+img 
+  max-width: 100%
+  height: auto
+  display: block
+  margin: 20px auto
+  image-rendering: -webkit-optimize-contrast
+  image-rendering: crisp-edges
+  image-rendering: pixelated
+
+@media (max-width: 767px) 
+  header 
+    padding: $box-padding-small
+
+  h1 
+    font-size: 24px
+
+  nav li 
+    display: block
+    margin: 10px 0
+
+  main 
+    max-width: 100%
+    padding: $box-padding-small
+
+  section 
+    margin-bottom: 20px
+
+  h2 
+    font-size: 20px
+
+  p 
+    line-height: 1.4
+
+  ul 
+    padding-left: 10px
+
+  footer 
+    padding: 5px 0
+
+  footer p 
+    font-size: 14px
